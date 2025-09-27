@@ -25,9 +25,9 @@
      "destination" : "/dak-{5}"
     },
     {
-      "npm": "hl7.fhir.be.medication",
-      "canonical": "https://www.ehealth.fgov.be/standards/fhir/medication", 
-      "destination": "/medication"
+      "npm": "hl7.fhir.be.patient-care",
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/patient-care", 
+      "destination": "/patient-care"
     }
   ]  
 }

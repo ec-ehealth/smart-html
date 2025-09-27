@@ -25,9 +25,9 @@
      "destination" : "/dak-{5}"
     },
     {
-      "npm": "hl7.fhir.be.drp",
-      "canonical": "https://hl7.be/fhir/drp", 
-      "destination": "/drp"
+      "npm": "hl7.fhir.be.medication",
+      "canonical": "https://hl7.be/fhir/medication", 
+      "destination": "/medication"
     }
   ]  
 }

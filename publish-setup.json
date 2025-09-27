@@ -23,6 +23,11 @@
      "npm" : "smart.who.int.dak.*",
      "canonical" : "http://smart.who.int/dak-{5}",
      "destination" : "/dak-{5}"
+    },
+    {
+      "npm": "hl7.fhir.be.medication",
+      "canonical": "https://hl7.be/fhir/medication", 
+      "destination": "/medication"
     }
   ]  
 }

@@ -1,6 +1,6 @@
 {
   "website": {
-  "url": "https://www.ehealth.fgov.be/standards/fhir/patient-care",
+  "url": "https://www.ehealth.fgov.be/standards/fhir",
   "style": "fhir.layout",
   "server": "apache",
   "org": "WHO",
@@ -14,7 +14,7 @@
   "layout-rules" : [{
       "npm": "hl7.fhir.be.patient-care",
       "canonical": "https://www.ehealth.fgov.be/standards/fhir/patient-care", 
-      "destination": "/"
+      "destination": "/patient-care"
     },
     {
      "npm" : "smart.who.int.*",

@@ -1,6 +1,6 @@
 {
   "website": {
-  "url": "https://www.ehealth.fgov.be/standards/fhir",
+  "url": "https://www.ehealth.fgov.be/standards/fhir/patient-care",
   "style": "fhir.layout",
   "server": "apache",
   "org": "WHO",

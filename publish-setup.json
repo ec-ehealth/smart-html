@@ -1,29 +1,27 @@
 {
   "website": {
-  "url": "https://www.ehealth.fgov.be/standards/fhir",
-  "style": "fhir.layout",
-  "server": "apache",
-  "org": "WHO",
-  "index-template": "index.template",
-  "clone-xml-json": true
+    "url": "https://www.ehealth.fgov.be/standards/fhir",
+    "style": "fhir.layout",
+    "server": "apache",
+    "org": "eHealth",
+    "index-template": "index.template",
+    "clone-xml-json": true
   },
-  "feeds" : {
-    "package" : "package-feed.xml",
-    "publication" : "publication-feed.xml"
-  },
-  "layout-rules" : [{
+  "layout-rules": [
+    {
       "npm": "hl7.fhir.be.patient-care",
-      "canonical": "https://www.ehealth.fgov.be/standards/fhir/patient-care", 
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/patient-care",
       "destination": "/patient-care"
     },
     {
       "npm": "hl7.fhir.be.medication",
-      "canonical": "https://www.ehealth.fgov.be/standards/fhir/medication", 
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/medication",
       "destination": "/medication"
-    },{
+    },
+    {
       "npm": "hl7.fhir.be.drp",
-      "canonical": "https://www.ehealth.fgov.be/standards/fhir/drp", 
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/drp",
       "destination": "/drp"
     }
-    
-  ]  }
+  ]
+}

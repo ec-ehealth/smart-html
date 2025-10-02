@@ -1,32 +1,29 @@
 {
-  "website" : {
-    "style" : "fhir.layout",
-    "url" : "http://smart.who.int",
-    "server" : "apache",
-    "org" : "WHO",
-    "index-template":"index.template",
-    "clone-xml-json" : true
+  "website": {
+  "url": "https://www.ehealth.fgov.be/standards/fhir",
+  "style": "fhir.layout",
+  "server": "apache",
+  "org": "WHO",
+  "index-template": "index.template",
+  "clone-xml-json": true
   },
   "feeds" : {
     "package" : "package-feed.xml",
     "publication" : "publication-feed.xml"
   },
   "layout-rules" : [{
-     "npm" : "smart.who.int.*",
-     "canonical" : "http://smart.who.int/{4}",
-     "destination" : "/{4}"
-   },{
-     "npm" : "who.*",
-     "canonical" : "http://smart.who.int/{2}",
-     "destination" : "/{2}"
-   },{
-     "npm" : "smart.who.int.dak.*",
-     "canonical" : "http://smart.who.int/dak-{5}",
-     "destination" : "/dak-{5}"
-    },
-    {
       "npm": "hl7.fhir.be.patient-care",
       "canonical": "https://www.ehealth.fgov.be/standards/fhir/patient-care", 
-      "destination": "/"
+      "destination": "/patient-care"
+    },
+    {
+      "npm": "hl7.fhir.be.medication",
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/medication", 
+      "destination": "/medication"
+    },{
+      "npm": "hl7.fhir.be.drp",
+      "canonical": "https://www.ehealth.fgov.be/standards/fhir/drp", 
+      "destination": "/drp"
     }
+    
   ]  }

@@ -8,7 +8,7 @@
   "clone-xml-json": true
   },
   "layout-rules" : [{
-      "npm": "hl7.fhir.be.patient-care",
+      "npm": "hl7.fhir.be.drp",
       "canonical": "https://www.ehealth.fgov.be/standards/fhir/drp", 
       "destination": "/"
     }

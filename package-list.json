@@ -9,7 +9,7 @@
     {
       "version" : "current",
       "desc" : "Continuous Integration build",
-      "path" : "https://build.fhir.org/ig/hl7-be/vaccination",
+      "path" : "http://build.fhir.org/ig/hl7-be/vaccination",
       "status" : "ci-build"
     },
     {

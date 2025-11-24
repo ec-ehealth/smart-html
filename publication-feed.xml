@@ -10,6 +10,7 @@
     <link>https://www.ehealth.fgov.be/standards/fhir/package-feed.xml</link>
     <generator>HL7, Inc FHIR Publication tooling</generator>
     <lastBuildDate>Mon, 24 Nov 2025 10:00:00 +0200</lastBuildDate>
+     <pubDate>Mon, 24 Nov 2025 10:00:00 +0200</pubDate>
     <atom:link href="https://www.ehealth.fgov.be/standards/fhir/vaccination/publication-feed.xml"
                rel="self" type="application/rss+xml"/>
     <language>en</language>

@@ -13,16 +13,6 @@
       "status" : "ci-build"
     },
     {
-      "version" : "1.1.2",
-      "path" : "https://www.ehealth.fgov.be/standards/fhir/vaccination/1.1.2",
-      "status" : "release",
-      "sequence" : "Trial Use",
-      "fhirversion" : "4.0.1",
-      "date" : "2025-11-18",
-      "current" : true,
-      "desc" : "eHealth FHIR Vaccination Profiles for Belgium"
-    },
-    {
       "version" : "1.1.1",
       "path" : "1.1.1",
       "status" : "release",

@@ -13,4 +13,9 @@
       "destination": "/"
     }
     
-  ]  }
+  ],
+	"feeds": {
+		"package": "package-feed.xml",
+		"publication": "publication-feed.xml"
+	}
+}

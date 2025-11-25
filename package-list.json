@@ -1,6 +1,6 @@
 {
   "package-id" : "hl7.fhir.be.vaccination",
-  "title" : "HL7 BE Vaccination IG",
+  "title" : "HL7 Belgium FHIR Implementation Guide - Vaccination profiles",
   "canonical" : "https://www.ehealth.fgov.be/standards/fhir/vaccination",
   "url" : "https://www.ehealth.fgov.be/standards/fhir/vaccination",
   "introduction" : "eHealth FHIR Vaccination Profiles for Belgium",
